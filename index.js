@@ -2,7 +2,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const { createPagination } = require("express-handlebars-paginate");
 const app = express();
-const port = process.env.NODE_ENV || 3000;
+const port = 3000;
 
 app.use(express.static(__dirname + "/html"));
 
